@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 60%;
+  height: 60%;
+  gap: 10px;
+}
+
+.stretchH {
+  width: 100%;
+}
+
+.stretchV {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+}
+
+
+.controller {
+  width: 35%;
+  height: 100%;
+}
+
+.chartWrapper {
+  width: 65%;
+}

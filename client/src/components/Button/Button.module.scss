@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-90deg, #e8725b, #d54f84);
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    user-select: none;
+}
+
+.container:active {
+    background: linear-gradient(-90deg, #e98b78, #d46a95);
+}
+
+.disabled {
+    background: lightgrey;
+}

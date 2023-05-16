@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+
+.setters {
+    &Wrapper {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+
+.white {
+    background: #282d38;
+}
+
+.black {
+    background: #1c222b;
+}
+
+.green {
+    color: lightgreen;
+  }
+
+.roundTitle {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e1e2e6;
+}
+
+.slider {
+    display: flex;
+    padding: 4px 12px;
+    border: 1px solid #474c53;
+    border-radius: 6px;
+    background: #242734;
+}

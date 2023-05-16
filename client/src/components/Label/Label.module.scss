@@ -1,0 +1,21 @@
+.container {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #474c53;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #171b25, #252932);
+  position: relative;
+}
+
+.icon {
+  left: 6px;
+  position: absolute;
+}
+
+.label {
+  font-weight: 600;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e1e2e6;
+}
+
+.white {
+  background: #282d38;
+}
+
+.black {
+  background: #1c222b;
+}
+
+.green {
+  color: lightgreen;
+}
